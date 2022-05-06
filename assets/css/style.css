@@ -1,14 +1,14 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
 
 body {
-    background-image: url("../assets/images/SupBakelarge.png");
+    background-image: url("../images/SupBakelarge.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     height: 100%;
     width: 100%;
     background-size: cover;
-    
+
 }
 
 header {
@@ -18,7 +18,7 @@ header {
     padding-left: 50px;
     padding-top: 20px;
     padding-right: 20px;
-    font-family:sans-serif;
+    font-family: sans-serif;
 }
 
 .projects {
@@ -36,23 +36,30 @@ article {
     background-color: rgba(0, 0, 0, 0.658);
     border-radius: 20px;
     box-shadow: 10px 10px 10px black;
-    color: white;   
-    font-size: large; 
+    color: white;
+    font-size: large;
     font-weight: bold;
 }
 
-article a{
+article a {
     color: white;
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
+    display: flex;
+    justify-content: stretch;
+
 }
 
 .card-text {
     padding: 2px 16px;
+}
 
+#thumbnail {
+    width: 70%;
+    height: 400px;
 }
 
 nav ul {
@@ -75,15 +82,15 @@ header a {
     padding-top: 500px;
 }
 
-#about-me { 
+#about-me {
     margin-bottom: 20px;
     padding: 50px;
     font-family: sans-serif;
     background-color: rgba(0, 0, 0, 0.658);
     border-radius: 20px;
     box-shadow: 10px 10px 10px black;
-    color: white;   
-    font-size: large; 
+    color: white;
+    font-size: large;
     font-weight: bold;
 }
 
@@ -104,6 +111,7 @@ header a {
     justify-content: center;
     padding-top: 300px;
 }
+
 .socials a {
     color: white;
     font-size: 50px;
@@ -113,7 +121,7 @@ header a {
 footer {
     color: white;
     font-family: sans-serif;
-    text-align: center;   
+    text-align: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -123,12 +131,14 @@ footer {
         width: 100%;
         height: 100%;
     }
+
     .snap {
         display: flex;
         flex-direction: column;
         width: 100%;
         height: 100%;
     }
+
     .pic-right {
         display: flex;
         justify-content: center;
